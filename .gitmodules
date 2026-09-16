@@ -1,0 +1,3 @@
+[submodule "projeto-livraria"]
+	path = projeto-livraria
+	url = https://github.com/CarlosCastellano10/projeto-livraria.git
