@@ -1,0 +1,11 @@
+.titulo {
+    color:blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+.titulo:hover {
+    color:aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}

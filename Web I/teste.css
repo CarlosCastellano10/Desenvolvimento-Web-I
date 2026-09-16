@@ -1,0 +1,82 @@
+header {
+    background-color: #10159a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: grey;
+    padding: 10px 1px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+footer {
+    background-color: grey;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    height: 200px;
+    
+}
+
+figure {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+figure:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-image: url('https://brasiliashopping.com.br/wp-content/uploads/2026/01/LIVRARIA-DA-VILA-1024x683.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.sobre2 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-variant: small-caps;
+    font-style: italic;
+    color: white;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.sobre2:hover {
+    color: #ff0000;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#msg1:focus {
+    background-color:yellow;
+    border-color: blue;
+    outline: none;
+}
+
+.lista1 {
+    /*list-style-image: url();*/
+    list-style-type: square;
+}
