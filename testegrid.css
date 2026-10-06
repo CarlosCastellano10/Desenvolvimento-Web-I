@@ -1,0 +1,42 @@
+.container-pai{
+    display: grid;
+    grid-template-columns: auto auto auto; /* nº de colunas | 1fr uma fração | pode trabalhar com %, px, fr, auto, repetir(), minmax() */
+    grid-template-rows: 1fr 400px 1fr; /* nº de linhas */
+    grid-template-areas: 
+        "header header header" /* mescla e transforma numa unica linha */
+        "menu conteudo conteudo"
+        "footer footer conteudo2";
+    background-color: tomato;
+}
+
+.container-pai div{
+    background-color: skyblue ;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-pai .header{
+    grid-area: header;
+    background-color: tomato;
+}
+
+.container-pai .menu{
+    grid-area: menu;
+    background-color: skyblue;
+}
+
+.container-pai .conteudo{
+    grid-area: conteudo;
+    background-color: slateblue;
+}
+
+.container-pai .footer{
+    grid-area: footer;
+    background-color: tomato;
+}
+
+.container-pai .conteudo2{
+    grid-area: conteudo2;
+    background-color: tomato;
+}
